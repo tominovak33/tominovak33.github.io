@@ -4,19 +4,17 @@
    Author's custom styles
    ========================================================================== */
 
+.tiny {
+  font-size: 12px;
+}
 
+.navbar .navbar-header .navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 1px 1px #D00;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar .navbar-header .navbar-brand:hover {
+  color: #000;
+}
