@@ -183,3 +183,21 @@ summary {
     background-color: #e6e6e6;
   }
 }
+
+.cssEdit {
+  style {
+    display: block;
+    white-space: pre;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid $color-secondary-1-0;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  [contenteditable] {
+    -webkit-user-modify: read-write-plaintext-only; // otherwise adding new lines etc will create divs or other things within the style tag which ruins things
+  }
+
+}
