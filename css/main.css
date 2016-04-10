@@ -18,11 +18,16 @@ body {
     }
 }
 
-.navbar .navbar-header .navbar-brand {
-  font-size: 25px;
-  font-weight: bold;
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
 }
 
-.navbar .navbar-header .navbar-brand:hover {
-  text-decoration: underline;
+.navbar-brand:hover span {
+    text-decoration: underline;
+}
+
+.navbar-brand > img {
+    display: inline-block;
 }
