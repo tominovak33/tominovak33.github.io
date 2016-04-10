@@ -21,6 +21,9 @@ a {
   a:hover, a:focus {
     color: #B00512; }
 
+.row {
+  margin-bottom: 2rem; }
+
 .site-masthead {
   margin-bottom: 3rem;
   background-color: #DD1021;
@@ -54,6 +57,12 @@ a {
 
 .site-post-title {
   font-size: 2.5rem; }
+
+.section-heading {
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 1.5rem;
+  padding-right: .9375rem;
+  padding-left: .9375rem; }
 
 .container {
   max-width: 60rem; }
@@ -102,3 +111,32 @@ a {
   color: #FFF;
   font-weight: 600;
   margin-left: 10px; }
+
+.notice {
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-left-color: #25BC0E;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: .25rem; }
+  .notice p {
+    margin-bottom: 0; }
+
+details {
+  margin-bottom: 0.75rem; }
+
+summary {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: .375rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: .25rem; }
+  summary:hover {
+    background-color: #e6e6e6; }
