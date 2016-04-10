@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -102,9 +103,9 @@
         background-color: #EEE;
     }</style>
     <div class="colorValues">
-        <input class='colorpicker' value='#000' data-color-group=".color1" />
-        <input class='colorpicker' value='#F00' data-color-group=".color2" />
-        <input class='colorpicker' value='#F00' data-color-group=".color3" />
+        <input id="cp1" class='colorpicker' value='#000' data-color-group=".color1" />
+        <input id="cp2" class='colorpicker' value='#F00' data-color-group=".color2" />
+        <input id="cp3" class='colorpicker' value='#F00' data-color-group=".color3" />
     </div>
 </div>
 <footer class="site-footer">
@@ -116,15 +117,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
 <script src="assets/js/colorChange.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
-<script>
-    $(".colorpicker").spectrum({
-        move: function(color) {
-            colorChange(this.getAttribute('data-color-group'), color.toHexString());
-        },
-        showInput: true,
-        preferredFormat: "hex"
-    });
-</script>
 </body>
 </html>

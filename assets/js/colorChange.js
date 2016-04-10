@@ -9,3 +9,26 @@ function colorChange(colorGroup, colorValue) {
         group[i].style[styleType] = colorValue;
     }
 }
+
+var colorPickers = document.querySelectorAll(".colorpicker");
+
+for(var i = 0; i < colorPickers.length; i++) {
+    var colorPicker = colorPickers[i];
+    var colorPickerID = colorPickers[i].id;
+    var colorGroup = colorPicker.getAttribute('data-color-group');
+
+    var colorSavedValue = localStorage.getItem(colorGroup);
+
+    $('#' + colorPickerID).spectrum({
+        move: function(color) {
+            colorChange(this.getAttribute('data-color-group'), color.toHexString());
+        },
+        change: function(color) {
+            localStorage.setItem(this.getAttribute('data-color-group'), color.toHexString());
+        },
+        showInput: true,
+        preferredFormat: "hex",
+        color: colorSavedValue || "#ff0000"
+    });
+    colorChange(colorGroup, colorSavedValue);
+}
