@@ -11,8 +11,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-<div class="site-masthead color3" data-color-style-type="background-color">
+<body class="color2" data-color-style-type="background-color">
+<div class="site-masthead color1" data-color-style-type="background-color">
     <div class="container">
         <a class="navbar-brand" rel="home" href="#" title="Tomi Novak">
             <img src="assets/img/profilePictureRoundSmall.png" height="43px" width="43px" />
@@ -34,16 +34,16 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-8 site-main">
-            <div>
-                <details>
-                    <summary>
-                        <span>Site status</span>
-                    </summary>
-                    <div class="notice">
-                        <p>As most personal projects, this website will most likely forever be a work in progress. So I apologise in advance for any mistakes you may see below.</p>
-                    </div>
-                </details>
-            </div>
+            <!--<div>-->
+                <!--<details>-->
+                    <!--<summary>-->
+                        <!--<span>Site status</span>-->
+                    <!--</summary>-->
+                    <!--<div class="notice">-->
+                        <!--<p>As most personal projects, this website will most likely forever be a work in progress. So I apologise in advance for any mistakes you may see below.</p>-->
+                    <!--</div>-->
+                <!--</details>-->
+            <!--</div>-->
             <div class="row">
                 <div class="section-heading">
                     <h1>Recent Projects</h1>
@@ -80,7 +80,7 @@
                 <h4>About</h4>
                 <p>I'm a web developer with a particular focus on back-end technologies. Most of my professional experience is with the LAMP stack, creating and maintaining content driven websites using different solutions ranging from Perch, WordPess to bespoke and proprietary content management systems.</p>
             </div>
-            <div class="sidebar-module">
+            <div class="sidebar-module sidebar-module-inset">
                 <h4>Elsewhere</h4>
                 <ol class="list-unstyled">
                     <li><a href="https://github.com/tominovak33">GitHub</a></li>
@@ -93,24 +93,19 @@
         </div><!-- /.site-sidebar -->
     </div><!-- /.row -->
 </div>
-<div class="container cssEdit">
-    <h2>Edit CSS</h2>
-    <p class="color1" data-color-style-type="color">Change me</p>
-    <div class="color2" data-color-style-type="background-color">
-        <p>foo</p>
-    </div>
-    <style type="text/css" contenteditable="true">.cssEdit {
-        background-color: #EEE;
-    }</style>
+<div class="container">
     <div class="colorValues">
-        <input id="cp1" class='colorpicker' value='#000' data-color-group=".color1" />
-        <input id="cp2" class='colorpicker' value='#F00' data-color-group=".color2" />
-        <input id="cp3" class='colorpicker' value='#F00' data-color-group=".color3" />
+        <label><span>Main color:</span>
+            <input id="cp1" class='colorpicker' value="#DD1021" data-color-group=".color1" />
+        </label>
+        <label><span>Background color:</span>
+            <input id="cp2" class='colorpicker' value="#FFF" data-color-group=".color2" />
+        </label>
     </div>
 </div>
-<footer class="site-footer">
+<footer class="site-footer color1" data-color-style-type="background-color">
     <p>&copy; 2016 Tomi Novak</p>
-    <p><a href="#">Back to top</a></p>
+    <!--<p><a href="#">Back to top</a></p>-->
 </footer>
 <!-- jQuery first, then Bootstrap JS. -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

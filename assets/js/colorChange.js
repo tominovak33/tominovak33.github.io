@@ -24,11 +24,11 @@ for(var i = 0; i < colorPickers.length; i++) {
             colorChange(this.getAttribute('data-color-group'), color.toHexString());
         },
         change: function(color) {
-            localStorage.setItem(this.getAttribute('data-color-group'), color.toHexString());
+            //localStorage.setItem(this.getAttribute('data-color-group'), color.toHexString());
         },
         showInput: true,
         preferredFormat: "hex",
-        color: colorSavedValue || "#ff0000"
+        //color: colorSavedValue
     });
     colorChange(colorGroup, colorSavedValue);
 }

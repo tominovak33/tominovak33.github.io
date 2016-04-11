@@ -4,7 +4,8 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555; }
+  color: #555;
+  background-color: #EEE; }
 
 h1,
 h2,
@@ -19,7 +20,7 @@ h6 {
 a {
   color: #DD1021; }
   a:hover, a:focus {
-    color: #B00512; }
+    color: #B00511; }
 
 .row {
   margin-bottom: 2rem; }
@@ -44,7 +45,8 @@ a {
       font-size: 3.5rem; } }
 
 .sidebar-module {
-  padding: 1rem; }
+  padding: 1rem;
+  margin-bottom: 1rem; }
 
 .sidebar-module-inset {
   padding: 1rem;
@@ -59,7 +61,7 @@ a {
   font-size: 2.5rem; }
 
 .section-heading {
-  border-bottom: 1px solid #EEE;
+  border-bottom: 2px solid #CCC;
   margin-bottom: 1.5rem;
   padding-right: .9375rem;
   padding-left: .9375rem; }
@@ -95,12 +97,16 @@ a {
 
 .site-footer {
   padding: 2.5rem 0;
-  color: #999;
+  color: #FFF;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #DD1021;
   border-top: .05rem solid #e5e5e5; }
-  .site-footer p:last-child {
-    margin-bottom: 0; }
+  .site-footer p {
+    font-weight: 600; }
+    .site-footer p:last-child {
+      margin-bottom: 0; }
+  .site-footer a {
+    color: #FFF; }
 
 .navbar-brand {
   padding: 10px 0; }
