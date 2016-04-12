@@ -14,13 +14,19 @@ body {
 
 h1,
 h2,
-h3,
+h3 {
+  font-family: $site-main-font;
+  font-weight: normal;
+  color: #333;
+}
+
 h4,
 h5,
 h6 {
   font-family: $site-main-font;
-  font-weight: normal;
-  color: #333;
+  font-weight: 600;
+  color: $color-primary-0;
+  border-bottom: 1px solid $color-custom-2;
 }
 
 a {

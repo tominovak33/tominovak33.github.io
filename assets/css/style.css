@@ -9,13 +9,18 @@ body {
 
 h1,
 h2,
-h3,
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333; }
+
 h4,
 h5,
 h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #333; }
+  font-weight: 600;
+  color: #DD1021;
+  border-bottom: 1px solid #CCC; }
 
 a {
   color: #DD1021; }
