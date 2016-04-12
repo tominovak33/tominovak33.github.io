@@ -3,9 +3,14 @@ var emailLink = document.getElementById("emailLink");
 emailLink.href = "mailto:tomi@tomi33.co.uk";
 emailLink.innerHTML = 'tomi@tomi33.co.uk';
 
-var aboutMeLink = document.getElementById("aboutMeLink");
-aboutMeLink.addEventListener("click", function(){
-    tomiScroll("about", 800);
+var otherContentButton = document.getElementById("otherContentButton");
+otherContentButton.addEventListener("click", function(){
+    tomiScroll("otherContent", 800);
+});
+
+var projectButton = document.getElementById("projectButton");
+projectButton.addEventListener("click", function(){
+    tomiScroll("recentProjects", 800);
 });
 
 function tomiScroll(targetID, scrollDuration) {
