@@ -164,3 +164,6 @@ summary {
 
 .cssEdit [contenteditable] {
   -webkit-user-modify: read-write-plaintext-only; }
+
+.underline {
+  text-decoration: underline; }

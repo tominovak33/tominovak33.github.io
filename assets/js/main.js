@@ -13,6 +13,12 @@ projectButton.addEventListener("click", function(){
     tomiScroll("recentProjects", 800);
 });
 
+var backToTopButton = document.getElementById("backToTop");
+backToTopButton.addEventListener("click", function(){
+    tomiScroll("page", 800);
+});
+
+backToTop
 function tomiScroll(targetID, scrollDuration) {
     var page = $('html,body');
     var element_to_scroll_to = $("#"+targetID);
