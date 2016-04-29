@@ -2,6 +2,20 @@
  * Created by tomi on 10/04/16.
  */
 
+/*
+<div class="container">
+    <div class="colorValues">
+        <label><span>Main color:</span>
+            <input id="cp1" class='colorpicker' value="#DD1021" data-color-group=".color1" />
+        </label>
+        <label><span>Background color:</span>
+            <input id="cp2" class='colorpicker' value="#FFF" data-color-group=".color2" />
+        </label>
+    </div>
+</div>
+*/
+
+
 function colorChange(colorGroup, colorValue) {
     var group = document.querySelectorAll(colorGroup);
     for(var i = 0; i < group.length; i++){
