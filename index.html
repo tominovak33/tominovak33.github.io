@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" id="page">
 <head>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -35,16 +32,6 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 site-main">
-            <!--<div>-->
-                <!--<details>-->
-                    <!--<summary>-->
-                        <!--<span>Site status</span>-->
-                    <!--</summary>-->
-                    <!--<div class="notice">-->
-                        <!--<p>As most personal projects, this website will most likely forever be a work in progress. So I apologise in advance for any mistakes you may see below.</p>-->
-                    <!--</div>-->
-                <!--</details>-->
-            <!--</div>-->
             <div class="row">
                 <div class="section-heading" id="recentProjects">
                     <h1>Recent Projects</h1>
@@ -71,7 +58,8 @@
                 </div>
                 <div class="col-md-12 project-item">
                     <h3>URL Shortener</h3>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p>A URL shortener written using React, Babel a very basic Node API.</p>
+                    <p>As opposed to storing the generated short url and using that later to query back the full one, the system simply just stores the full url and returns an encoded string corresponding to the id of the newly inserted item as the short url. <br />This way when querying for the full url from the database (which should probably just be a simple key value store) the short url can be decoded and the query can be run against an (indexed) primary key as opposed to an arbitrary sting.</p>
                     <p><a class="btn btn-secondary" href="https://gitlab.com/tominovak33/url-shortener-node" role="button">View details »</a></p>
                 </div>
             </div>
@@ -79,10 +67,12 @@
                 <div class="section-heading" id="otherContent">
                     <h1>My other content</h1>
                 </div>
-                <div class="col-md-12">
-                    <h3>Posts on other sites</h3>
-                    <p>A summary of my experiences while working as a back-end web developer for a year between leaving school and starting my Software Engineering degree.</p>
-                    <p><a class="btn btn-secondary" href="http://blog.whiteoctober.co.uk/2016/01/06/filling-the-gap-at-white-october/" role="button">View Post »</a></p>
+                <div class="col-sm-6">
+                    <div class="card card-block">
+                        <h3 class="card-title">Filling the gap at White October</h3>
+                        <p class="card-text">A summary of my experiences while working as a back-end web developer for a year between leaving school and starting my Software Engineering degree.</p>
+                        <a href="#" class="btn btn-primary">Read Post</a>
+                    </div>
                 </div>
             </div>
         </div><!-- /.site-main -->
@@ -98,15 +88,20 @@
                     <li><a href="https://keybase.io/tominovak33">Keybase</a></li>
                     <li><a href="https://twitter.com/tominovak33">Twitter</a></li>
                     <li><a href="https://uk.linkedin.com/pub/tomi-novak/aa/95a/a50">LinkedIn</a></li>
-                    <li><a href="#" id="emailLink">Please enable JS to view my email address</a></li>
+                    <li><a href="#" id="emailLink">Please enable javascript in your browser to view my email address.</a></li>
                 </ol>
+            </div>
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>Site Status</h4>
+                <p>As most personal projects, this website will most likely forever be a work in progress. So I apologise in advance for any mistakes you may see.</p>
+                <p>You can view the source code of this page <a href="https://github.com/tominovak33/tominovak33.github.io">here.</a></p>
             </div>
         </div><!-- /.site-sidebar -->
     </div><!-- /.row -->
 </div>
 <footer class="site-footer color1" data-color-style-type="background-color">
     <p>&copy; 2016 Tomi Novak</p>
-    <button type="button" id="backToTop" class="btn btn-secondary btn-sm">Back to top</button>
+    <a class="btn btn-secondary" id="backToTop" role="button">Back To Top</a>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>

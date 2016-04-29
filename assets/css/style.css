@@ -102,16 +102,14 @@ a {
 
 .site-footer {
   padding: 2.5rem 0;
-  color: #FFF;
   text-align: center;
   background-color: #DD1021;
   border-top: .05rem solid #e5e5e5; }
   .site-footer p {
+    color: #FFF;
     font-weight: 600; }
     .site-footer p:last-child {
       margin-bottom: 0; }
-  .site-footer a {
-    color: #FFF; }
 
 .navbar-brand {
   padding: 10px 0; }
@@ -133,24 +131,12 @@ a {
   .notice p {
     margin-bottom: 0; }
 
-details {
-  margin-bottom: 0.75rem; }
-
-summary {
-  display: inline-block;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  padding: .375rem 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  border-radius: .25rem; }
-  summary:hover {
-    background-color: #e6e6e6; }
+.btn-primary {
+  background-color: #DD1021;
+  border-color: #DD1021; }
+  .btn-primary:hover {
+    background-color: #B00511;
+    border-color: #B00511; }
 
 .cssEdit style {
   display: block;
