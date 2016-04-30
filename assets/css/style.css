@@ -43,7 +43,7 @@ a {
 
 .site-title {
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal; }
   @media (min-width: 40em) {
     .site-title {
@@ -137,6 +137,14 @@ a {
   .btn-primary:hover {
     background-color: #B00511;
     border-color: #B00511; }
+
+.padding-v-small {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.padding-v-medium {
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .cssEdit style {
   display: block;

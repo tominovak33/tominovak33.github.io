@@ -55,7 +55,7 @@ a {
 
 .site-title {
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal;
   @media (min-width: 40em) {
     font-size: 3.5rem;
@@ -179,6 +179,15 @@ a {
   }
 }
 
+.padding-v-small {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.padding-v-medium {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 //details {
 //  margin-bottom: 0.75rem;
