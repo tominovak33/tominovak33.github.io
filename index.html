@@ -1,189 +1,110 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tomi Novak - Homepage</title>
-        <meta name="description" content="Tomi Novak - Homepage">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Tomi Novak">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="navbar-brand" rel="home" href="#" title="Tomi Novak">
-                <img src="assets/img/profilePictureRoundSmall.png" height="30px" width="30px" />
-                <span>tomi</span>
-            </a>
-        </div>
-          <!-- Re-add when the links make sense
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                      <li><a href="#">Menu item 1</a></li>
-                      <li><a href="#">Menu item 2</a></li>
-                      <li><a href="#">Menu item 3</a></li>
-                      <li><a href="#">Menu item 4</a></li>
-                      <li><a href="#">Menu item 5</a></li>
-                      <li><a href="#">Menu item 6</a></li>
-                  </ul>
-              </li>
-            </ul>
-        </div><!--/.navbar-collapse -->
-          -->
-      </div>
-    </nav>
+<!DOCTYPE html>
+<html lang="en" id="page">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="color2" data-color-style-type="background-color">
+<div class="site-masthead color1" data-color-style-type="background-color">
     <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <h1 class="header-large">Tomi Novak - Homepage</h1>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>This is my personal website, it is meant to be a starting point from which it is easy to explore the content I have created or other things related to web development, programming or technology in general which I am interested in.</p>
-                        <p>The site is currently (and probably forever will be) a work in progress.</p>
-                        <br />
-                        <p id="aboutMeLink"><a class="btn btn-primary btn-lg" href="#about" role="button">Find out more about me &raquo;</a></p>
-                    </div>
-                </div>
-                <hr />
-                <div class="page-header" id="about">
-                    <h1>About Me</h1>
-                </div>
-                <div class="well">
-                    <p>My name is Tomi Novak, I am <span class="tiny">(well.. I was, I'm currently doing a Computing degree)</span> a web developer with a particular focus on back-end technologies. Most of my professional experience is with the <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP stack</a>, creating and maintaining content driven websites using different solutions ranging from Perch, WordPess to besopke and proprietary content management systems. However, in my spare time I play around with  <a href="https://github.com/tominovak33"> all sorts of other stuff</a>, nowadays mostly JavaScript related.</p>
-                </div>
-                <div class="page-header">
-                    <h1>My other content</h1>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>A summary of my experiences while working as a web developer for a year: <a href="http://blog.whiteoctober.co.uk/2016/01/06/filling-the-gap-at-white-october/">Filling the gap at White October</a></p>
-                    </div>
-                </div>
-                <div class="page-header">
+        <a class="navbar-brand" rel="home" href="#" title="Tomi Novak">
+            <img src="assets/img/profilePictureRoundSmall.png" height="43px" width="43px" />
+            <span class="site-name">Tomi Novak</span>
+        </a>
+        <nav class="nav site-nav">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#" id="projectButton">Projects</a>
+            <a class="nav-link" href="#" id="otherContentButton">Other Content</a>
+            <a class="nav-link" href="https://github.com/tominovak33/">Code</a>
+        </nav>
+    </div>
+</div>
+<div class="site-header">
+    <div class="container">
+        <h1 class="site-title">Tomi Novak</h1>
+        <p class="lead site-description">This is my personal website which serves as a starting point from which my other online content can be explored.</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 site-main">
+            <div class="row">
+                <div class="section-heading" id="recentProjects">
                     <h1>Recent Projects</h1>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                      <h2>URL Shortener</h2>
-                      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                      <p><a class="btn btn-default" href="https://github.com/tominovak33/url-shortener" role="button">Find out more &raquo;</a></p>
-                    </div>
-                    <div class="col-md-4">
-                      <h2>M.E.A.N. CMS</h2>
-                      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                      <p><a class="btn btn-default" href="https://github.com/tominovak33/meanapp" role="button">View on GitHub &raquo;</a></p>
-                    </div>
-                    <div class="col-md-4">
-                      <h2>Budgeting Webapp</h2>
-                      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                      <p><a class="btn btn-default" href="#" role="button">Coming soon &raquo;</a></p>
-                    </div>
+                <div class="col-md-12 project-item">
+                    <h3>Node CMS</h3>
+                    <p>A content management system written in Node.js. This started as one of the first things I wrote using angular just as a practice app. I eventually plan on integrating it into my website and using it to maintain a small blog.</p>
+                    <p><a class="btn btn-secondary" href="https://github.com/tominovak33/meanapp" role="button">View details »</a></p>
                 </div>
-                <hr />
+                <div class="col-md-12 project-item">
+                    <h3>Budgeting Webapp [WIP]</h3>
+                    <p>A website that allows users to manage their weekly and monthly financial budgets. Users can input individual items and then view graphs generated for daily, weekly, monthly and yearly outgoings through various spending categories. The charts are generated using the Charts.js graph library.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Coming Soon »</a></p>
+                </div>
+                <div class="col-md-12 project-item">
+                    <h3>Todo Webapp [WIP]</h3>
+                    <p>A hierarchical todo-list webapp written in angular with a Node.js API as a backend (Sequelize + a Maria DB database) to store the items persistently. Items can have inner 'children' items recursively, although this gets a bit useless after a couple of layers.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Coming Soon »</a></p>
+                </div>
+                <div class="col-md-12 project-item">
+                    <h3>Blackjack JS</h3>
+                    <p>A desktop blackjack game written mainly in javascript using <a href="http://electron.atom.io/">Electron</a> to build it for Linux, Windows and OS X.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Coming Soon »</a></p>
+                </div>
+                <div class="col-md-12 project-item">
+                    <h3>URL Shortener</h3>
+                    <p>A URL shortener written using React, Babel a very basic Node API.</p>
+                    <p>As opposed to storing the generated short url and using that later to query back the full one, the system simply just stores the full url and returns an encoded string corresponding to the id of the newly inserted item as the short url. <br />This way when querying for the full url from the database (which should probably just be a simple key value store) the short url can be decoded and the query can be run against an (indexed) primary key as opposed to an arbitrary sting.</p>
+                    <p><a class="btn btn-secondary" href="https://gitlab.com/tominovak33/url-shortener-node" role="button">View details »</a></p>
+                </div>
             </div>
-            <div class="col-md-3">
-                <h1 class="lead">Find Me Elsewhere</h1>
-                <!-- Github -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">GitHub</h3>
-                    </div>
-                    <div class="panel-body">
-                        <p><a href="https://github.com/tominovak33">tominovak33</a></p>
+            <div class="row">
+                <div class="section-heading" id="otherContent">
+                    <h1>My other content</h1>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card card-block">
+                        <h3 class="card-title">Filling the gap at White October</h3>
+                        <p class="card-text">A summary of my experiences while working as a back-end web developer for a year between leaving school and starting my Software Engineering degree.</p>
+                        <a href="#" class="btn btn-primary">Read Post</a>
                     </div>
                 </div>
-                <!-- /Github -->
-                <!-- Email -->
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Email</h3>
-                    </div>
-                    <div class="panel-body">
-                        <p><a href="#" id="emailLink">Please enable JS to view my email address</a></p>
-                    </div>
-                </div>
-                <!-- /Email -->
-                <!-- Keybase -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Keybase</h3>
-                    </div>
-                    <div class="panel-body">
-                        <p><a href="https://keybase.io/tominovak33">My Keybase profile</a></p>
-                    </div>
-                </div>
-                <!-- /Keybase -->
-                <!-- Twitter -->
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Twitter</h3>
-                    </div>
-                    <div class="panel-body">
-                        <p><a href="https://twitter.com/tominovak33">@tominovak33</a></p>
-                    </div>
-                </div>
-                <!-- /Twitter -->
-                <!-- LinkedIN -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">LinkedIn</h3>
-                    </div>
-                    <div class="panel-body">
-                        <p><a href="https://uk.linkedin.com/pub/tomi-novak/aa/95a/a50">View my LinkedIn profile</a></p>
-                    </div>
-                </div>
-                <!-- /LinkedIN -->
             </div>
-        </div>
-        <hr />
-        <footer>
-            <p>&copy; Tomi Novak 2015</p>
-        </footer>
-    </div><!-- /.container -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-71747761-1','auto');ga('send','pageview');
-    </script>
-  </body>
+        </div><!-- /.site-main -->
+        <div class="col-lg-4 site-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>About</h4>
+                <p>I'm a web developer with a particular focus on back-end technologies. Most of my professional experience is with the LAMP stack, creating and maintaining content driven websites using different solutions ranging from Perch, WordPess to bespoke and proprietary content management systems.</p>
+            </div>
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>Elsewhere</h4>
+                <ol class="list-unstyled">
+                    <li><a href="https://github.com/tominovak33">GitHub</a></li>
+                    <li><a href="https://keybase.io/tominovak33">Keybase</a></li>
+                    <li><a href="https://twitter.com/tominovak33">Twitter</a></li>
+                    <li><a href="https://uk.linkedin.com/pub/tomi-novak/aa/95a/a50">LinkedIn</a></li>
+                    <li><a href="#" id="emailLink">Please enable javascript in your browser to view my email address.</a></li>
+                </ol>
+            </div>
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>Site Status</h4>
+                <p>As most personal projects, this website will most likely forever be a work in progress. So I apologise in advance for any mistakes you may see.</p>
+                <p>You can view the source code of this page <a href="https://github.com/tominovak33/tominovak33.github.io">here.</a></p>
+            </div>
+        </div><!-- /.site-sidebar -->
+    </div><!-- /.row -->
+</div>
+<footer class="site-footer color1" data-color-style-type="background-color">
+    <p>&copy; 2016 Tomi Novak</p>
+    <a class="btn btn-secondary" id="backToTop" role="button">Back To Top</a>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+<script>if (typeof jQuery === 'undefined') { document.write('<script src="vendor/js/jquery-2.1.4.min.js"><\/script>'); } </script>
+</body>
 </html>

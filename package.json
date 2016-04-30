@@ -1,0 +1,29 @@
+{
+  "name": "tomi33.co.uk",
+  "version": "0.0.1",
+  "description": "My personal website",
+  "main": "index.html",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build",
+    "watch": "./node_modules/.bin/gulp watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tominovak33/tominovak33.github.io.git"
+  },
+  "keywords": [
+    "Website"
+  ],
+  "author": "Tomi Novak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tominovak33/tominovak33.github.io/issues"
+  },
+  "homepage": "https://github.com/tominovak33/tominovak33.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}
